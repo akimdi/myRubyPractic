@@ -1,0 +1,4 @@
+<x xmlns:tenderlove='http://tenderlovemaking.com/'>
+  <tenderlove:foo awesome='true'>snuggles!</tenderlove:foo>
+  <truth>echo chamber</truth>
+</x>
