@@ -11,3 +11,9 @@ d.each do |node|
   end
 end
 
+
+# Альтернативное решение с использованием gem nokogiri
+# require 'nokogiri'
+# 
+# x = Nokogiri::XML(File.read('mddrive.xml'))
+# x.xpath('//template["name"]').each {|node| puts node.attr("name")}
